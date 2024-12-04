@@ -60,7 +60,7 @@
 //let oron2 = oron
 //while (oron2>0) {
 //x = Math.floor((b%Math.pow(10, oron2))/Math.pow(10, oron2-1))
-//if (Math.ceil(x/2)==(x/2)) {
+//if (x%2<1) {
 //    sda = sda + x   
 //} 
 //oron2 = oron2 - 1
