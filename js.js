@@ -87,8 +87,28 @@
 //console.log(sda);
 
 
-    
+3iin zereg    
+//let a = 9
+//const b = a 
+//let p = 0
+//while (a>9) {
+//p = p + 1
+//a = a/3
+//console.log(1);
+//}
+//console.log(b/Math.pow(3,p));
 
+
+//let a = 120
+//let n = 1
+//if (a%2==0) {
+//    while (a>1){
+//        a = a/n
+//        n = n + 1         
+//   } console.log(n-1);
+//} else{
+//    console.log("no");    
+//}
 
 
 
