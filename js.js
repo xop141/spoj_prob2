@@ -86,21 +86,38 @@
 //} 
 //console.log(sda);
 
+//*****Цифрийн давталт
+//let a = 11231,too = 1, sda = 0
+//const b = a
+//let oron = 0, x = 0
+//while (a>=1) {
+//   a = a/10
+//    oron = oron + 1
+//}
+//let oron2 = oron
+//while (oron2>0) {
+//   x =  Math.floor((b%Math.pow(10, oron2))/Math.pow(10, oron2-1))
+//   if (x==too) {
+//         sda = sda + 1  
+//    } 
+//  oron2 = oron2 - 1
+//}
+//console.log(sda);
 
-let a = 12320
-  let b = 0 //oron
-  const c = a 
-  let d = 0
- let ar =[]
- while (a>1) {
-  a = a / 10
- b=b+1
-  }
-  while (b>=1) {
-  ar.push(Math.floor((c/Math.pow(10,b-1))%10));
-  b = b - 1  
- }
-  console.log(Math.min(...ar));
+//let a = 12320
+ // let b = 0 //oron
+ // const c = a 
+  //let d = 0
+ //let ar =[]
+ //while (a>1) {
+  //a = a / 10
+ //b=b+1
+  //}
+  //while (b>=1) {
+  //ar.push(Math.floor((c/Math.pow(10,b-1))%10));
+  //b = b - 1  
+ //}
+  //console.log(Math.min(...ar));
 
 
 //let a = 12320
