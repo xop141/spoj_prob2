@@ -134,6 +134,28 @@
   //b = b - 1  
  //}
   //console.log(Math.max(...ar));
+
+
+
+
+
+ let a = 123402
+ let b = 0 //oron
+ const c = a 
+ let d = 0, x = 0 
+ while (a>1) {
+ a = a / 10
+ b=b+1
+ } 
+ const test = b
+ while (b>=1) { 
+ d = Math.floor((c/Math.pow(10,b-1))%10)
+ x = x+ Math.floor((c/Math.pow(10,b-1))%10)*Math.pow(10,-b)    
+ b = b - 1  
+ }
+     console.log(x*(Math.pow(10, test)));
+
+
 //let a = 16
 //const c = a
 //let b = 0
