@@ -86,6 +86,20 @@
 //} 
 //console.log(sda);
 
+let a = 16
+const c = a
+let b = 0
+while (a>1) {
+    a = a/2
+    b = b + 1
+} 
+if (Math.pow(2, b)==c) {
+    console.log("yes");
+} else{
+    console.log("no");
+}
+
+
 
 3iin zereg    
 //let a = 9
