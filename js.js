@@ -86,18 +86,49 @@
 //} 
 //console.log(sda);
 
-let a = 16
-const c = a
-let b = 0
-while (a>1) {
-    a = a/2
-    b = b + 1
-} 
-if (Math.pow(2, b)==c) {
-    console.log("yes");
-} else{
-    console.log("no");
-}
+
+let a = 12320
+  let b = 0 //oron
+  const c = a 
+  let d = 0
+ let ar =[]
+ while (a>1) {
+  a = a / 10
+ b=b+1
+  }
+  while (b>=1) {
+  ar.push(Math.floor((c/Math.pow(10,b-1))%10));
+  b = b - 1  
+ }
+  console.log(Math.min(...ar));
+
+
+//let a = 12320
+ // let b = 0 //oron
+//  const c = a 
+//  let d = 0
+// let ar =[]
+// while (a>1) {
+ // a = a / 10
+ //b=b+1
+  //}
+  //while (b>=1) {
+  //ar.push(Math.floor((c/Math.pow(10,b-1))%10));
+  //b = b - 1  
+ //}
+  //console.log(Math.max(...ar));
+//let a = 16
+//const c = a
+//let b = 0
+//while (a>1) {
+ //   a = a/2
+ //   b = b + 1
+//} 
+//if (Math.pow(2, b)==c) {
+ //   console.log("yes");
+//} else{
+  //  console.log("no");
+//}
 
 
 
